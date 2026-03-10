@@ -44,7 +44,7 @@ The notebooks are designed to run in environments like Google Colab, but can be 
 
 ## Model Architecture
 
-![Model Architecture](Model Architecture.png)
+![Model Architecture](Architecture.png)
 
 The overall architecture of the proposed multimodal sarcasm detection system is shown above. The model integrates **text, audio, visual, and contextual information** to capture complementary cues required for sarcasm understanding. Textual utterances are encoded using the pre-trained **RoBERTa** model to obtain semantic embeddings. Audio signals are processed to extract acoustic features such as **MFCCs, pitch, and spectral characteristics**, while visual frames are encoded using a **ResNet50** backbone to capture facial expressions and scene-level information. Contextual information is derived by combining textual and visual signals from surrounding dialogue to provide additional conversational cues.
 
